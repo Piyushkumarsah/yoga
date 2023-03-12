@@ -1,0 +1,222 @@
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.theme {
+    color: rgb(57, 210, 54);
+}
+
+.font {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.padding {
+    padding: 0 23px;
+}
+
+.fitimg {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-red {
+    background-color: red;
+    margin: 2px;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.fitmax {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.fitmin {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.imgfit {
+    max-height: 100%;
+    min-width: 100%;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.align-bottom {
+    align-items: baseline;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.flex-col {
+    flex-direction: column;
+    display: flex;
+}
+
+.Rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+.font-bold {
+    font-weight: bolder;
+}
+
+.bolder {
+    font-weight: 1000;
+}
+
+.my-1 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.my-2 {
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.px-2 {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-blue {
+    color: rgb(227 74 56);
+    ;
+}
+
+.btn {
+    /* outline: none; */
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(57, 210, 54);
+    padding: 7px 12px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.border {
+    border: 2px solid green;
+    margin: 4px;
+    overflow: ;
+}
+
+.opadec {
+    opacity: .7;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.orange {
+    color: rgb(226, 148, 3);
+}
+
+.deconone {
+    text-decoration: none;
+}
+
+.p {
+    /* margin: 10px; */
+}
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.fade-in-text {
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,44 @@
+section {
+    height: 65vh;
+}
+
+.start {
+    width: 40%;
+}
+
+.end {
+    width: 60%;
+
+}
+
+.first {
+    width: 30%;
+}
+
+.second {
+    width: 70%;
+    
+}
+
+.one {
+   height: 100%;
+}
+
+.two {
+    height: 100%;
+}
+
+.three {
+    height: 100%;
+}
+.child1{
+    width: 70%;
+}
+.contain{
+    align-items:flex-end;
+    width: 30%;
+}
+.child2{
+    width: 30%;
+    height: 70%;
+}
